@@ -100,6 +100,24 @@ const Branches = () => {
       image: "/api/placeholder/600/400",
       locationLink: "https://maps.app.goo.gl/DWCx64NiXZN6d2EC6?g_st=ipc",
     },
+    Sapugaskanda: {
+      name: "Sapugaskanda Branch",
+      address: "Sapugaskanda",
+      phone: "0112 927 837",
+      hours: "Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon",
+      services: ["Sample Collection", "ECG"],
+      image: "/api/placeholder/600/400",
+      locationLink: "https://maps.app.goo.gl/vkvMUnqYCWgq3DjN7",
+    },
+    ThoranaJunction: {
+      name: "Thorana Junction Branch",
+      address: "Thorana Junction",
+      phone: "0112 902 420",
+      hours: "Mon-Sat: 6:30 AM - 5:30 PM, Sun: 6:30 AM - 12 Noon",
+      services: ["Sample Collection", "ECG"],
+      image: "/api/placeholder/600/400",
+      locationLink: "https://maps.app.goo.gl/oQS1LJjkTg666nqS6?g_st=ipc",
+    },
   };
 
   return (
