@@ -46,30 +46,40 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/alphamedilabgampaha"
                 className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaSquareFacebook />
               </a>
               <a
                 href="https://www.linkedin.com/company/alphamedilab/"
                 className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaLinkedin />
               </a>
               <a
                 href="https://www.instagram.com/alphamedilabsl/?hl=en"
                 className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaInstagramSquare />
               </a>
               <a
                 href="https://www.youtube.com/@AlphaMediLab"
                 className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <FaYoutube />
               </a>
               <a
                 href="https://www.tiktok.com/@alphamedilab?_r=1&_t=ZS-93Um1sBKfzR"
                 className="social-icon"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <AiFillTikTok />
               </a>
