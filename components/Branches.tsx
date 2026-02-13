@@ -111,7 +111,7 @@ const Branches = () => {
       hours: "Mon-Sat: 6:30 AM - 6:00 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
       image: "/api/placeholder/600/400",
-      locationLink: "https://maps.app.goo.gl/vkvMUnqYCWgq3DjN7",
+      locationLink: "https://maps.app.goo.gl/VXiqgxnUGDMAR3Qg8 ",
     },
     ThoranaJunction: {
       name: "Thorana Junction Branch",
@@ -120,7 +120,7 @@ const Branches = () => {
       hours: "Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
       image: "/api/placeholder/600/400",
-      locationLink: "https://maps.app.goo.gl/oQS1LJjkTg666nqS6?g_st=ipc",
+      locationLink: "https://maps.app.goo.gl/VqjtyTdUM2fkSz3D8 ",
     },
   };
 
