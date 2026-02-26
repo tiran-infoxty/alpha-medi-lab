@@ -1088,6 +1088,10 @@ section {
   margin-top: 30px;
   width: 100%;
 }
+.branch-image {
+  align-items: center;
+  align-content: center;
+}
 
 .branch-image img {
   width: 100%;
