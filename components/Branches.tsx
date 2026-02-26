@@ -44,7 +44,7 @@ const Branches = () => {
         "Emergency Testing",
         "ECG",
       ],
-      image: "/api/placeholder/600/400",
+      image: "assets/images/alphaHome.png",
       locationLink: "https://maps.app.goo.gl/Jqj9mYvkkERfGcZM6?g_st=ipc",
     },
     north: {
@@ -55,7 +55,7 @@ const Branches = () => {
       hours:
         "Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 6:00 PM, Poya: 6:30 AM - 12 Noon",
       services: ["Sample Collection", "Dr Channeling", "OPD", "ECG"],
-      image: "/api/placeholder/600/400",
+      image: "/alpha/kiribathgoada.png",
       locationLink: "https://maps.app.goo.gl/AgBphZidxNrHTmd9A?g_st=ipc",
     },
     east: {
@@ -64,7 +64,7 @@ const Branches = () => {
       phone: "0112 269 949",
       hours: "Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
-      image: "/api/placeholder/600/400",
+      image: "/alpha/makola.png",
       locationLink: "https://maps.app.goo.gl/U8c8rZAoJ4UUSLMr5?g_st=ipc",
     },
     kohalwila: {
@@ -73,7 +73,7 @@ const Branches = () => {
       phone: "0112 269 858",
       hours: "Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
-      image: "/api/placeholder/600/400",
+      image: "/alpha/koholwila.png",
       locationLink: "https://maps.app.goo.gl/qX325ZMtCAX84Ve7A?g_st=ipc",
     },
     Mvm: {
@@ -82,7 +82,7 @@ const Branches = () => {
       phone: "0112 927 837",
       hours: "Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
-      image: "/api/placeholder/600/400",
+      image: "/alpha/mawaramandiya.png",
       locationLink: "https://maps.app.goo.gl/vkvMUnqYCWgq3DjN7",
     },
     Kadawatha: {
@@ -92,7 +92,7 @@ const Branches = () => {
       phone: "0112 902 420",
       hours: "Mon-Sat: 6:30 AM - 5:30 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
-      image: "/api/placeholder/600/400",
+      image: "/alpha/kadawatha.png",
       locationLink: "https://maps.app.goo.gl/oQS1LJjkTg666nqS6?g_st=ipc",
     },
     Hunupitiya: {
@@ -101,7 +101,7 @@ const Branches = () => {
       phone: "0112 983 198",
       hours: "Mon-Sat: 6:30 AM - 6:30 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
-      image: "/api/placeholder/600/400",
+      image: "/alpha/hunupitiya.png",
       locationLink: "https://maps.app.goo.gl/DWCx64NiXZN6d2EC6?g_st=ipc",
     },
     Sapugaskanda: {
@@ -110,7 +110,7 @@ const Branches = () => {
       phone: "0113 682 681",
       hours: "Mon-Sat: 6:30 AM - 6:00 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
-      image: "/api/placeholder/600/400",
+      image: "/alpha/sapugaskanda.png",
       locationLink: "https://maps.app.goo.gl/VXiqgxnUGDMAR3Qg8 ",
     },
     ThoranaJunction: {
@@ -119,7 +119,7 @@ const Branches = () => {
       phone: "0112 908 261",
       hours: "Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon, Poya:Closed",
       services: ["Sample Collection", "ECG"],
-      image: "/api/placeholder/600/400",
+      image: "/alpha/thorana j.png",
       locationLink: "https://maps.app.goo.gl/VqjtyTdUM2fkSz3D8 ",
     },
   };
@@ -230,7 +230,7 @@ const Branches = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-                {/* <img src={branches[branch].image} alt={branches[branch].name} /> */}
+                <img src={branches[branch].image} alt={branches[branch].name} />
               </motion.div>
             </motion.div>
           ))}
