@@ -31,30 +31,23 @@ interface DarkModeProviderProps {
 export const DarkModeProvider: React.FC<DarkModeProviderProps> = ({
   children,
 }) => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
-    // Only access localStorage on client side
-    if (typeof window !== "undefined") {
-      return localStorage.getItem("darkMode") === "true";
-    }
-    return false;
-  });
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
   useEffect(() => {
-    // Apply dark mode class to body based on current state
+    // Always start in light mode; remove any persisted dark class
+    document.documentElement.classList.remove("dark");
+  }, []);
+
+  useEffect(() => {
     if (isDarkMode) {
-      document.body.classList.add("dark-mode");
+      document.documentElement.classList.add("dark");
     } else {
-      document.body.classList.remove("dark-mode");
+      document.documentElement.classList.remove("dark");
     }
   }, [isDarkMode]);
 
   const toggleDarkMode = (): void => {
-    const newDarkMode = !isDarkMode;
-    setIsDarkMode(newDarkMode);
-
-    if (typeof window !== "undefined") {
-      localStorage.setItem("darkMode", newDarkMode.toString());
-    }
+    setIsDarkMode((prev) => !prev);
   };
 
   const value: DarkModeContextType = {
