@@ -41,7 +41,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body>
+      <body >
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
@@ -53,7 +53,7 @@ export default function RootLayout({
         </noscript>
 
         <Providers>
-          <main className="min-h-screen pt-20 lg:pt-24">{children}</main>
+          <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-10">{children}</main>
         </Providers>
       </body>
     </html>
