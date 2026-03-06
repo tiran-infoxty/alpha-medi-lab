@@ -72,7 +72,7 @@ const Footer = () => {
                   href="/doctors"
                   className="hover:text-blue-600 transition-colors"
                 >
-                  For Doctors
+                  Branches
                 </Link>
               </li>
               <li>
